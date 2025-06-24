@@ -17,7 +17,7 @@ public class Main {
         for (int i = 0; i < numParole; i++) {
             System.out.println("inserisci la " + (i + 1) + " parola");
             String parolaCorrente = scanner.nextLine();
-            if (paroleSet.contains(parolaCorrente)) {
+            if (!paroleSet.add(parolaCorrente)) {
                 System.out.println("la parola " + parolaCorrente + " e gia presente");
                 paroleDuplicate.add(parolaCorrente);
 
