@@ -33,7 +33,7 @@ public class Main {
         for (int i = nuovaLista.size() - 1; i >= 0; i--) {
             nuovaLista.add(nuovaLista.get(i));
         }
-
+        
         System.out.println("alla fine " + nuovaLista);
         return nuovaLista;
     }
